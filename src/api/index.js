@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 
-const url = 'http://localhost:5000';
-//const url = 'https://example-memories-project-2.herokuapp.com'
+//const url = 'http://localhost:5000';
+const url = 'https://karlandoh-instagram-api.herokuapp.com/'
 
 const API = axios.create({ baseURL: url });
 
